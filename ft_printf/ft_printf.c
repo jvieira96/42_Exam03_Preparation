@@ -6,7 +6,7 @@
 /*   By: jpedro-f <jpedro-f@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/04 15:51:52 by jpedro-f          #+#    #+#             */
-/*   Updated: 2025/04/04 17:53:08 by jpedro-f         ###   ########.fr       */
+/*   Updated: 2025/04/04 18:55:08 by jpedro-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -75,8 +75,7 @@ int ft_printf(const char *str, ...)
 				len += write(1, "%", 1);
 		}
 		else
-	
-	  	len += write(1, &str[i], 1);
+		 	len += write(1, &str[i], 1);
 		i++;
 	}
 	va_end(args);
