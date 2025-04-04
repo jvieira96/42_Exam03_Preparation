@@ -6,7 +6,7 @@
 /*   By: jpedro-f <jpedro-f@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/04 15:51:52 by jpedro-f          #+#    #+#             */
-/*   Updated: 2025/04/04 17:45:32 by jpedro-f         ###   ########.fr       */
+/*   Updated: 2025/04/04 17:53:08 by jpedro-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -83,7 +83,7 @@ int ft_printf(const char *str, ...)
 	return (len);
 }
 
-#include <stdio.h>
+/* #include <stdio.h>
 #include <limits.h>
 
 int main (void)
@@ -376,4 +376,4 @@ int main (void)
 	ft_printf("Len ft = %d", new);
 	printf("\n");
 
-}
+} */
