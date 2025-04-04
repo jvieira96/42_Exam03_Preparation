@@ -6,7 +6,7 @@
 /*   By: jpedro-f <jpedro-f@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/04 15:51:52 by jpedro-f          #+#    #+#             */
-/*   Updated: 2025/04/04 18:55:08 by jpedro-f         ###   ########.fr       */
+/*   Updated: 2025/04/04 18:56:16 by jpedro-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,8 +50,6 @@ int	ft_putnbr(int nbr, int base)
 	len += write(1, &hexa[temp_nbr % base], 1);
 	return (len);
 }
-
-
 
 int ft_printf(const char *str, ...)
 {
