@@ -6,7 +6,7 @@
 /*   By: jpedro-f <jpedro-f@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/04 15:51:52 by jpedro-f          #+#    #+#             */
-/*   Updated: 2025/04/04 18:56:16 by jpedro-f         ###   ########.fr       */
+/*   Updated: 2025/04/07 13:04:57 by jpedro-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,7 +44,7 @@ int	ft_putnbr(int nbr, int base)
 		temp_nbr = -nbr;
 	}
 	else
-		temp_nbr = (unsigned int)nbr;
+		temp_nbr = nbr;
 	if (temp_nbr >=  (unsigned int)base)
 		len += ft_putnbr((temp_nbr / base), base);
 	len += write(1, &hexa[temp_nbr % base], 1);

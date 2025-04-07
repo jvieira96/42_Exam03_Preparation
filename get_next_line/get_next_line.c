@@ -6,7 +6,7 @@
 /*   By: jpedro-f <jpedro-f@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/18 17:46:17 by jpedro-f          #+#    #+#             */
-/*   Updated: 2025/04/03 20:35:42 by jpedro-f         ###   ########.fr       */
+/*   Updated: 2025/04/07 13:04:23 by jpedro-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,8 +59,9 @@ char *get_next_line(int fd)
 					free(line);
 					return (NULL);
 				}
-			}
-			break;
+				else
+					break ;
+			}		
 		}
 		line = join_char(line, buffer[buffer_index++], i);
 		if (!line)
